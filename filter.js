@@ -1,6 +1,6 @@
 let b = document.getElementById('search-filter-results-9197');
 
-b.setAttribute('style', 'display: flex; flex-direction: row;flex-wrap: wrap; padding: 0 auto;');
+b.setAttribute('style', 'display: flex; flex-direction: row;flex-wrap: wrap;');
 
 b.removeChild(b.firstChild);
 b.removeChild(b.firstChild);
@@ -24,7 +24,7 @@ for(let i = 0; i < cc.length; i++) {
 	if(window.innerWidth < 1000) {
    		cc[i].parentNode.setAttribute('style', 'width: 48%; padding: 10px;');
 	} else {
-		cc[i].parentNode.setAttribute('style', 'width: 24%; padding: 10px;');
+		cc[i].parentNode.setAttribute('style', 'width: 19.5%; padding: 10px;');
 	}
 
 	cc[i].style.minHeight = '4em';	
@@ -34,3 +34,7 @@ for(let i = 0; i < cc.length; i++) {
 
 }
 
+document.getElementById('search-filter-form-8896').style.marginRight = '10px';
+document.getElementById('search-filter-form-9081').style.marginLeft = '-5px';
+document.getElementById('search-filter-form-9084').style.marginRight = '10px';
+document.getElementById('search-filter-form-9195').style.marginRight = '10px';
